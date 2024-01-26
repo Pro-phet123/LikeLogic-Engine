@@ -21,34 +21,6 @@ def load_lottie_url(url: str):
     if r.status_code != 200:
         return None
     return r.json()
-#st.title('OBOT IS A LOUD BOY')# Lottie animation URL
-lottie_url = "https://lottie.host/c543af57-8f5a-4777-92f9-dd11e1714ef3/iXyxE3WPrp.json"
-
-
-# Load Lottie animation
-#lottie_json = load_lottie_url(lottie_url)
-
-
-# Display animation in Streamlit
-#if lottie_json is not None:
-
-
-    # Making the code below run after 6 seconds
-
-   # with st.spinner("# ```LikeLogic-Engine Loading please wait .....🥰```"):
-
-        #st_lottie(lottie_json, speed=6, width=400, height=1000, key="animation")
-        #time.sleep(6)
-
-    # Hide the spinner
-    #st.spinner()
-
-#else:
-    #st.error("Failed to load Lottie animation.")
-
-
-# Hide the spinner
-#st.spinner()
 
 animation1 = st.container()
 header = st.container()
@@ -72,7 +44,7 @@ def load_lottie_url(url: str):
     return r.json()
 
 with animation1:
-        #st.title('OBOT IS A LOUD BOY')# Lottie animation URL
+        # Lottie animation URL
     lottie_url = "https://lottie.host/c543af57-8f5a-4777-92f9-dd11e1714ef3/iXyxE3WPrp.json"
 
 
@@ -93,12 +65,6 @@ with animation1:
     #Hide the spinner
     st.spinner()
 
-    #else:
-       # st.error("Failed to load Lottie animation.")
-
-
-# Hide the spinner
-#st.spinner()
 
 with header:
     st.title('LikeLogic-Engine')
@@ -187,11 +153,3 @@ if submit:
     st.subheader("Prediction Result:")
     st.write(f"The predicted number of daily new likes is approximately: {prediction[0]}")
 
-#loaded_model = load("/content/drive/MyDrive/Colab Notebooks/linear_regression_model.joblib")
-
-
-#submit = st.button('Predict')
-#if submit:
-    #prediction = loaded_model.predict([[input_feature_1, input_feature_2, input_feature_3]])
-    #st.subheader("Prediction Result:")
-    #st.write(f"The predicted number of daily new likes is approximately: {prediction[0][0]}")
