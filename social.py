@@ -73,7 +73,7 @@ with header:
 with dataset:
     st.title("The Dataset")
     st.text("This is a company's facebook post users\ninteraction dataset. It contains 1226\ncolumns/features and 34,328 entries.")
-    Users_interactions = get_data("/content/drive/MyDrive/Colab Notebooks/interactions.csv")
+    Users_interactions = get_data("interactions.csv")
     st.write(Users_interactions.head())
 
 with animation2:
@@ -139,7 +139,7 @@ with model_training:
     if not (0 <= input_feature_1 <= MAX_VALUE and 0 <= input_feature_2 <= MAX_VALUE and 0 <= input_feature_3 <= MAX_VALUE):
         st.warning('Please enter valid numbers for unlikes, video replays, and user engagement.')
 
-loaded_model = load("/content/drive/MyDrive/Colab Notebooks/linear_regression_model.joblib")
+loaded_model = load("linear_regression_model.joblib")
 
 submit = st.button('Predict')
 if submit:
