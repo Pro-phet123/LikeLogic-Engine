@@ -1,5 +1,4 @@
 # LikeLogic-Engine 
-%%writefile social.py
 import json
 import requests
 import streamlit as st
