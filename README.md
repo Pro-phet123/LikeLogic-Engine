@@ -30,5 +30,5 @@ pip install streamlit streamlit-lottie numpy seaborn tensorflow matplotlib panda
 
 
 ```bash
-git clone https://github.com/Acel-01/chatangel.git
+git clone https://github.com/Pro-phet123/LikeLogic-Engine/tree/main
 ```
