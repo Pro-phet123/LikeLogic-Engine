@@ -3,7 +3,7 @@
 LikeLogic-Engine is a web application that harnesses the power of machine learning to predict the number of likes a company's Facebook post will receive on a daily basis. It empowers you to make data-driven decisions about your social media strategy and maximize engagement with your audience.
 
 
-# Key FeaturesInteractive
+## Key Features Interactive
 
 **Visualizations:** Explore key user interaction metrics with visualizations for likes, unlikes, engagement, and video replays.
 
@@ -11,7 +11,7 @@ LikeLogic-Engine is a web application that harnesses the power of machine learni
 
 **Linear Regression Model:** The prediction engine leverages a linear regression model trained on a comprehensive dataset of Facebook post interactions.
 
-# To Use Locally
+## To Use Locally
 
 Install Dependencies:
 
