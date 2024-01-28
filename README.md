@@ -17,11 +17,6 @@ Before running the project, ensure you have the following software installed on 
 Python 3.9: You can download and install Python 3.9 from the official Python
 website (https://www.python.org/downloads/).
 
-**Install Dependencies:**
-
-```bash
-pip install streamlit streamlit-lottie numpy seaborn tensorflow matplotlib pandas keras joblib
-```
 
 ## To Setup Locally
 
@@ -36,5 +31,35 @@ git clone https://github.com/Pro-phet123/LikeLogic-Engine.git
 **2. Change into the project directory :**
 
 ```bash
-Cd LikeLogic-Engine/ 
+Cd social.py/ 
 ```
+
+**Install Project Dependencies :**
+
+```bash
+pip install streamlit streamlit-lottie numpy seaborn tensorflow matplotlib pandas keras joblib
+```
+
+**Run The Web Application**
+
+```bash
+streamlit run social.py 
+```
+
+
+# About The Web Application
+
+## Using The Web Application 
+
+**1. Explore Visualizations:** Choose a metric from the dropdown menu to visualize its trends over time.Provide Input for Prediction: Enter the following values:Number of unlikes per dayNumber of video replays per dayNumber of users who engaged with the page per dayClick Predict: The application will display the predicted number of daily likes.Dataset
+
+The application utilizes a dataset of Facebook post interactions containing 1226 features and 34,328 entries.
+
+Model
+
+The prediction model is a linear regression model trained on the provided dataset.
+
+Technology StackPythonStreamlitLottieNumPySeabornTensorFlowMatplotlibPandasKerasJoblibAdditional InformationThe linear_regression_model.joblib file contains the trained machine learning model.The interactions.csv file contains the Facebook post interactions dataset.Contact
+
+For any questions or feedback, please reach out to [your name or contact information].
+
