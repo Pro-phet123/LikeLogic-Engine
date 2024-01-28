@@ -26,9 +26,15 @@ pip install streamlit streamlit-lottie numpy seaborn tensorflow matplotlib panda
 ## To Setup Locally
 
 
-**1. Clone this project repository**
+**1. Clone this project repository :**
 
 
 ```bash
-git clone https://github.com/Pro-phet123/LikeLogic-Engine/tree/main
+git clone https://github.com/Pro-phet123/LikeLogic-Engine.git
+```
+
+**2. Change into the project directory :**
+
+```bash
+Cd LikeLogic-Engine/ 
 ```
