@@ -34,13 +34,13 @@ git clone https://github.com/Pro-phet123/LikeLogic-Engine.git
 Cd social.py/ 
 ```
 
-**Install Project Dependencies :**
+**3. Install Project Dependencies :**
 
 ```bash
 pip install streamlit streamlit-lottie numpy seaborn tensorflow matplotlib pandas keras joblib
 ```
 
-**Run The Web Application**
+**4. Run The Web Application :**
 
 ```bash
 streamlit run social.py 
@@ -93,9 +93,9 @@ Keras
 Joblib
 
 
-## Additional Information
+## Some Informations To Note
 
-The linear_regression_model.joblib file contains the trained machine learning model.
+The ```linear_regression_model.joblib``` file contains the trained machine learning model.
 
 The interactions.csv file contains the Facebook post interactions dataset.
 
