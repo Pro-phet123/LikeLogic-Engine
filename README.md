@@ -51,15 +51,55 @@ streamlit run social.py
 
 ## Using The Web Application 
 
-**1. Explore Visualizations:** Choose a metric from the dropdown menu to visualize its trends over time.Provide Input for Prediction: Enter the following values:Number of unlikes per dayNumber of video replays per dayNumber of users who engaged with the page per dayClick Predict: The application will display the predicted number of daily likes.Dataset
+**1. Explore Visualizations:** Choose a metric from the dropdown menu to visualize its trends over time.
+
+**2. Provide Input for Prediction:** Enter the following values:
+
+Number of unlikes per day.
+Number of video replays per day.
+Number of users who engaged with the page per day.
+
+**3. Click Predict:** The application will display the predicted number of daily likes.
+
+
+## Dataset
 
 The application utilizes a dataset of Facebook post interactions containing 1226 features and 34,328 entries.
 
-Model
+## Model
 
 The prediction model is a linear regression model trained on the provided dataset.
 
-Technology StackPythonStreamlitLottieNumPySeabornTensorFlowMatplotlibPandasKerasJoblibAdditional InformationThe linear_regression_model.joblib file contains the trained machine learning model.The interactions.csv file contains the Facebook post interactions dataset.Contact
+## Technology Stack
 
-For any questions or feedback, please reach out to [your name or contact information].
+Python
+
+Streamlit
+
+Lottie
+
+NumPy
+
+Seaborn
+
+TensorFlow
+
+Matplotlib
+
+Pandas
+
+Keras
+
+Joblib
+
+
+## Additional Information
+
+The linear_regression_model.joblib file contains the trained machine learning model.
+
+The interactions.csv file contains the Facebook post interactions dataset.
+
+## Contact
+
+For any questions or feedback, please reach out to [Name: Olalemi Olaoluwakintan, E-mail: olalemiolaoluwakintan@gmail.com].
 
