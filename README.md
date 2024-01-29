@@ -56,7 +56,9 @@ streamlit run social.py
 **2. Provide Input for Prediction:** Enter the following values:
 
 Number of unlikes per day.
+
 Number of video replays per day.
+
 Number of users who engaged with the page per day.
 
 **3. Click Predict:** The application will display the predicted number of daily likes.
