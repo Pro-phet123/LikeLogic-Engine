@@ -97,7 +97,7 @@ Joblib
 
 The ```linear_regression_model.joblib``` file contains the trained machine learning model.
 
-The interactions.csv file contains the Facebook post interactions dataset.
+The ```interactions.csv``` file contains the Facebook post interactions dataset.
 
 ## Contact
 
