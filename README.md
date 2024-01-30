@@ -49,6 +49,9 @@ streamlit run social.py
 
 # About The Web Application
 
+## Link To The Web Application (Deployed Using Streamlit):
+
+
 ## Using The Web Application 
 
 **1. Explore Visualizations:** Choose a metric from the dropdown menu to visualize its trends over time.
@@ -66,7 +69,7 @@ Number of users who engaged with the page per day.
 
 ## Dataset
 
-The application utilizes a dataset of Facebook post interactions containing 1226 features and 34,328 entries.
+The application utilizes a sample of a dataset gotten from Kaggle of Facebook post interactions, it containing 1226 features and 34,328 entries.
 
 ## Model
 
