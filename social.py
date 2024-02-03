@@ -151,5 +151,5 @@ if submit:
 
     # Display the result
     st.subheader("Prediction Result:")
-    st.write(f"The predicted number of daily new likes is approximately: ("{round(prediction[0])}")
+    st.write(f"The predicted number of daily new likes is approximately: {round(prediction[0])}")
 
