@@ -134,7 +134,7 @@ with model_training:
     input_feature_2 = st.number_input('Enter the number of times a posted video was replayed per day:', min_value=0)
     input_feature_3 = st.number_input("Enter the number for users who Engaged with the company's Page per day:", min_value=0)
 
-    MAX_VALUE = 10**20  # Replace with your desired maximum value
+    MAX_VALUE = 10**20  
 
     if not (0 <= input_feature_1 <= MAX_VALUE and 0 <= input_feature_2 <= MAX_VALUE and 0 <= input_feature_3 <= MAX_VALUE):
         st.warning('Please enter valid numbers for unlikes, video replays, and user engagement.')
@@ -143,13 +143,13 @@ loaded_model = load("linear_regression_model.joblib")
 
 submit = st.button('Predict')
 if submit:
-    # Make sure input features are in the correct format (2D array)
+    
     input_features = [[input_feature_1, input_feature_2, input_feature_3]]
 
-    # Perform prediction
+    # Performing Prediction
     prediction = loaded_model.predict(input_features)
 
-    # Display the result
+    # Displaying the result
     st.subheader("Prediction Result:")
     st.write(f"The predicted number of daily new likes is approximately: {round(prediction[0])}")
 
