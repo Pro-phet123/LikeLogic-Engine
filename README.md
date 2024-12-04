@@ -53,9 +53,9 @@ streamlit run social.py
 
 **Click:**
 
-```bash
+
 https://likelogic-engine-tgq5c3uiew2ymcj2q9gnwj.streamlit.app/
-```
+
 
 ## Using The Web Application 
 
