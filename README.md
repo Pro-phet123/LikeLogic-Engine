@@ -51,9 +51,7 @@ streamlit run social.py
 
 ## Link To The Web Application (Deployed Using Streamlit):
 
-**Click:**
-
-
+**1.  Click to vist:**
 https://likelogic-engine-tgq5c3uiew2ymcj2q9gnwj.streamlit.app/
 
 
